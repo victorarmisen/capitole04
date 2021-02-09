@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8192065560407522103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8192065560407522099}
+  - component: {fileID: 8192065560407522098}
+  - component: {fileID: 8192065560407522097}
+  - component: {fileID: 8192065560407522096}
+  m_Layer: 0
+  m_Name: Texto_Antes_De_Entrar
+  m_TagString: TextAction
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8192065560407522099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192065560407522103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.06, y: 0.13399994, z: 0.37}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8192065560407522098
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192065560407522103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.32
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8192065560407522097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192065560407522103}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84f45e0121975194ab61e12aede5c63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
+  textSure: Bienvenido a Capitole Consulting
+  activeAction: 0
+--- !u!114 &8192065560407522096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192065560407522103}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b736c3bd1ad6404cbc06dc323757952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToShow: "Some friends stucked in boring projects? Let\xB4s save them."
+  text: {fileID: 0}
+  click: {fileID: 0}
+  Zoomed: 0
+  MaxCharacters: 35
+  "Vi\xF1eta": {fileID: 0}
+  exit_level3: 0
+  fade: {fileID: 0}
+  Imagen_Stage: {fileID: 0}
+  Imagen: 0
+  zoom_presentation: 1
+  zoom_object: {fileID: 0}
+  post: {fileID: 0}

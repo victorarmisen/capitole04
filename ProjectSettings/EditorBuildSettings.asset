@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: d9e895d3f94e8c54eba5409c668772b5
+  - enabled: 1
+    path: Assets/Scenes/Controles.unity
+    guid: 89749925720c9ff4aa4c2908026360a7
+  - enabled: 1
+    path: Assets/Scenes/Stage1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Stage2.unity
+    guid: e065ea1909141fa4eae8b3129b51f6a7
+  - enabled: 1
+    path: Assets/Scenes/Stage3.unity
+    guid: 22dac1f55392f9c49b7ca887484407df
+  - enabled: 1
+    path: Assets/Scenes/Stage4.unity
+    guid: 8c6524bfa20d1fd47b1d3c22d203b5d5
+  - enabled: 1
+    path: Assets/Scenes/Stage5.unity
+    guid: 388f0e57ad0e5b240bc71ff060d4fbfe
+  - enabled: 1
+    path: Assets/Scenes/StageBoss.unity
+    guid: 3276adaa9895dea4e814722dbe204af4
+  - enabled: 1
+    path: Assets/Scenes/Info_Final.unity
+    guid: b1393eb7b2e5f3843b21e9e82edc0e3f
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fdb862d62eb7304aa52a95192b69335,
+      type: 2}
